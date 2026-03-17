@@ -1,0 +1,13 @@
+Algoritmo <TrocaDeValores>
+
+var
+inteiro A, B, temp
+
+escreva("Escreva o valor de A:")
+leia (A)
+escreva("Escreva o valor de B:")
+leia (B)
+temp = B
+B = A
+A = temp
+escreva("O valor do A é: ", A, " E o valor do B é: ", B)

@@ -1,0 +1,16 @@
+Algoritmo <salario>
+
+var
+cadeia nome
+real salario, vendas, total
+
+escreva("Nome do vendendor:")
+leia (nome)
+escreva ("Qual o salário fixo: ")
+leia salario)
+escreva ("Quantidade de vendas do mês: ")
+leia (vendas)
+vendas = vendas * 0.15
+total = vendas + salario
+
+escreva("O nome do vendedor é: ", nome, " Seu salário com a comissão é: " ,total)

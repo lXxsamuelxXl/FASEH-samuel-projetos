@@ -1,0 +1,18 @@
+Algoritmo <mediaaluno>
+
+var
+cadeia nome
+real n1, n2, n3, media
+
+escreva("Nome do aluno:")
+leia (nome)
+escreva ("Nota da primeira prova: ")
+leia (n1)
+escreva ("Nota da segundo prova: ")
+leia (n2)
+escreva ("Nota da terceira prova: ")
+leia (n3)
+
+media = (n1 + n2 + n3)/3
+
+escreva("O nome do aluno é: ", nome, " E sua média é: " ,media)
