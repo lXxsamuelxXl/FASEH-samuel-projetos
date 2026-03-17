@@ -1,2 +1,11 @@
-Algoritmo<consumogasolina>
+Algoritmo <consumogasolina>
 
+var
+real Cgasto, distancia, media
+
+escreva (" Digite a distancia percorrida em KM: ")
+leia (distancia)
+escreva (" Digite foi a quantidade de gasolina gasta em litros: ")
+leia (Cgasto)
+media = distancia/Cgasto
+escreva ("O consumo médio de litros de gasolina por kilometro é: ", (media)
