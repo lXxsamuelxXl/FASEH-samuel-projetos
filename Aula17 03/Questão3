@@ -1,0 +1,12 @@
+Algoritmo <Conversão>
+
+var
+real dolar, real, valor
+
+escreva("Valor do dólar:")
+leia (dolar)
+escreva ("Quantidade de dolares: ")
+leia (valor)
+real = (
+
+escreva("O nome do aluno é: ", nome, " E sua média é: " ,media)
