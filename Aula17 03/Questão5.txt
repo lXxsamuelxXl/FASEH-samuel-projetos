@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+   real dt, im, ct, crr
+
+   escreva ("O custo do carro: ")
+   leia(crr)
+   im = crr*45/100
+   dt = crr*28/100
+   ct = im+dt+crr
+   escreva("O valor total com impostos é: " + ct)
+
+
+  }
+}

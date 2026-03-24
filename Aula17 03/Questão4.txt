@@ -1,0 +1,11 @@
+-programa {
+  funcao inicio() {
+    real d1, r1
+
+    escreva ("Qual o valor depositado: ")
+    leia (d1)
+    r1 = d1*0.70/100
+    escreva ("O valor do rendimento mensal foi : " + r1)
+   
+  }
+}

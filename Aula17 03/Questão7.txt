@@ -1,0 +1,31 @@
+programa {
+  funcao inicio() {
+
+  cadeia nome
+  real  not1, not2, not3, media
+
+  escreva("Qual o nome do aluno:")
+  leia(nome)
+
+  escreva("Primeira nota de 0 a 10:")
+  leia(not1)
+  escreva("Segunda nota de 0 a 10:")
+  leia(not2)
+  escreva("Terceira nota de 0 a 10:")
+  leia(not3)
+
+ media = (not1 + not2 + not3)/3
+ escreva("A media é:" + media)
+
+ se (media >=7){
+  escreva("Aprovado!!!")
+
+ }senao se (media <=5 ){
+ escreva("Reprovado")
+ 
+ }senao{ 
+  escreva("Recuperação") }
+
+ } 
+
+}

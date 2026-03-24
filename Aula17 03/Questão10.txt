@@ -1,0 +1,52 @@
+programa {
+
+  funcao tabuada(inteiro N, caracter O, inteiro T) {
+    inteiro i
+    real resultado
+
+    O = O
+
+    para (i = 1; i <= T; i++) {
+
+      se (O == 'S') {
+        resultado = N + i
+        escreva(N, " + ", i, " = ", resultado, "\n")
+
+      } senao se (O == 'M') {
+        resultado = N * i
+        escreva(N, " * ", i, " = ", resultado, "\n")
+
+      } senao se (O == 'D') {
+        resultado = N / i
+        escreva(N, " / ", i, " = ", resultado, "\n")
+
+      } senao se (O == 'U') {
+        resultado = N - i
+        escreva(N, " - ", i, " = ", resultado, "\n")
+
+      } senao {
+        escreva("Operador inválido!\n")
+        pare
+      }
+
+    }
+  }
+
+  funcao inicio() {
+
+    inteiro n, t
+    caracter o
+
+    escreva("Digite o valor N: ")
+    leia(n)
+
+    escreva("Digite o operador (S=soma, M=multiplicação, D=divisão, U=subtração): ")
+    leia(o)
+
+    escreva("Digite o valor T: ")
+    leia(t)
+
+    tabuada(n, o, t)
+
+  }
+}

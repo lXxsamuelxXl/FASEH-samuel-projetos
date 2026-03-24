@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+        
+    inteiro numeromai, num1, num2
+   escreva ("Digite o primeiro numero:")
+   leia(num1)
+   escreva ("Digite o segundo numero:")
+   leia(num2)
+
+    se (num1 > num2){
+         escreva ("O primeiro numero é o maior:" + num1)
+         numeromai = num1
+
+    }senao{ ("O segundo numero é o maior:" + num2)
+      numeromai = num2
+    }
+      
+    se (numeromai < 100 e numeromai > 0){
+         escreva("Está no intervalo entre 1 a 99")
+
+    }senao se (numeromai > 99 e numeromai <=199){
+      escreva("Está no intervalo entre 100 a 199")
+
+    }senao {
+     ("Está no intervalo maior que 200")}
+
+     }
+  
+    }

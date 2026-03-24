@@ -1,0 +1,47 @@
+programa {
+  funcao inicio() {
+
+    inteiro ano, total_ate_2010 = 0, total_geral = 0
+    real valor, desconto, valor_final
+    caracter opcao
+
+    opcao = 'S'
+
+    enquanto (opcao != 'N') {
+
+      escreva("Digite o ano do veículo: ")
+      leia(ano)
+
+      escreva("Digite o valor do veículo: ")
+      leia(valor)
+
+      se (ano <= 2010) {
+        desconto = valor * 0.12
+        total_ate_2010++
+      } senao {
+        desconto = valor * 0.07
+      }
+
+      valor_final = valor - desconto
+
+      escreva("Valor do desconto: R$ ", desconto, "\n")
+      escreva("Valor final a pagar: R$ ", valor_final, "\n")
+
+      total_geral++
+
+      escreva("Deseja continuar calculando? (S/N): ")
+      leia(opcao)
+      opcao = opcao
+
+      enquanto (opcao != 'S' e opcao != 'N') {
+        escreva("Digite apenas S ou N: ")
+        leia(opcao)
+        opcao = opcao
+      }
+    }
+
+    escreva("\nTotal de carros até 2010: ", total_ate_2010, "\n")
+    escreva("Total geral de carros: ", total_geral, "\n")
+
+  }
+}
