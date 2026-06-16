@@ -1,1 +1,36 @@
 
+# PetFlow
+
+O PetFlow é um sistema de gerenciamento para Pet Shops desenvolvido em Java como um projeto acadêmico. O software roda diretamente no console (terminal) e simula a interface de um sistema de atendimento ao cliente, oferecendo recursos desde o cadastro do usuário até agendamentos e uma loja virtual.
+
+---
+
+## Funcionalidades
+
+O sistema está dividido em módulos práticos para o usuário:
+
+* Autenticação:** Sistema simples de cadastro e login de usuários[cite: 1].
+* Cadastro de Pets:** Permite registrar o nome, tipo de animal e idade do seu pet[cite: 1].
+* Agendamento de Serviços:** Opções para marcar banho, tosa, adestramento e castração[cite: 1].
+* Carteira Veterinária:** Registro e exibição do histórico de vacinas aplicadas no animal[cite: 1].
+* Módulo de Adoção:** Disponibiliza informações de contato para interessados em adotar um animal[cite: 1].
+* Loja Virtual:** Simulação de um carrinho de compras com produtos como ração, petiscos, brinquedos e acessórios[cite: 1].
+
+---
+
+## Tecnologias Utilizadas
+
+* Linguagem:** Java[cite: 1, 2]
+* Entrada de Dados:** java.util.Scanner[cite: 1, 2]
+* Paradigma:** Orientação a Objetos (separação entre a classe principal e métodos de execução)[cite: 1, 2]
+
+---
+
+## Como Executar o Projeto
+
+
+1. Faça o clone ou baixe os arquivos do repositório.
+2. Certifique-se de que os arquivos Main.java[cite: 2] e funcoes.java[cite: 1] estão na mesma pasta.
+3. Abra o terminal na pasta do projeto e compile os arquivos:
+```bash
+   javac Main.java funcoes.java
